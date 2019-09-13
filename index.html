@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://digital-spectr.com/ac/academy.php" method="post" class="form">
+        <div class="form-header">
+            Задать вопрос
+        </div>
+        <input class="form-input form-input__text" type="text" name="name" id="name" placeholder="Фамилия Имя Отчество *" required pattern="^[- а-яА-я]+">
+        <input class="form-input form-input__text" type="tel" name="phone" id="phone" placeholder="Телефон *" required pattern="^[- +0-9]+">
+        <input class="form-input form-input__text" type="email" name="email" id="email" placeholder="Email">
+        <input class="form-input form-input__button" type="submit" value="ОТПРАВИТЬ ЗАПРОС">
+    </form>
+</body>
+
+</html>
